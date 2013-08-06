@@ -77,33 +77,21 @@ class TC_slider {
             <div class="carousel-inner">
                 <div class="item active">
                    <div class="carousel-image">
-                      <img width="1200" height="500" src="<?php echo TC_BASE_URL ?>inc/img/phare.jpg" class="slide wp-post-image" alt="<?php _e( 'Customizr is a clean responsive theme' , 'customizr' ) ?>">
+                      <img width="1200" height="500" src="/img/slide_1.jpg" class="slide wp-post-image" alt="<?php _e( 'Customizr is a clean responsive theme' , 'customizr' ) ?>">
                     </div>
-                    <div class="carousel-caption">
-                        <h1><?php _e( 'Customizr is a clean responsive theme' , 'customizr' ) ?></h1>
-                          <p class="lead"><?php _e( 'Let your creativity speak and easily customiz\'it the way you want!' , 'customizr' ) ?></p>
-                         <a class="btn btn-large btn-primary" href="<?php echo $admin_link; ?>"><?php _e( 'Learn more' , 'customizr' ) ?></a>
-                    </div>
+
                 </div>
               <div class="item">
                  <div class="carousel-image">
-                      <img width="1200" height="500" src="<?php echo TC_BASE_URL ?>inc/img/chevrolet.jpg" class="slide wp-post-image" alt="<?php _e( 'Style your WordPress site live!' , 'customizr' ) ?>">
+                      <img width="1200" height="500" src="/img/slide_2.jpg" class="slide wp-post-image" alt="<?php _e( 'Style your WordPress site live!' , 'customizr' ) ?>">
                   </div>
-                  <div class="carousel-caption">
-                      <h1><?php _e( 'Style your WordPress site live!' , 'customizr' ) ?></h1>
-                        <p class="lead"><?php _e( 'Many layout and design options are available from the WordPress customizer screen : see your changes live !' , 'customizr' ) ?></p>
-                       <a class="btn btn-large btn-primary" href="<?php echo $admin_link; ?>"><?php _e( 'Just try it!' , 'customizr' ) ?></a>
-                    </div>
                 </div>
+
               <div class="item">
                  <div class="carousel-image">
-                  <img width="1200" height="500" src="<?php echo TC_BASE_URL ?>inc/img/ampoules.jpg" class="slide wp-post-image" alt="<?php _e( 'Create beautiful sliders' , 'customizr' ) ?>">
+                  <img width="1200" height="500" src="/img/slide_3.jpg" class="slide wp-post-image" alt="<?php _e( 'Create beautiful sliders' , 'customizr' ) ?>">
                 </div>
-                <div class="carousel-caption">
-                  <h1><?php _e( 'Create beautiful sliders' , 'customizr' ) ?></h1>
-                      <p class="lead"><?php _e( 'Customizr comes with a cool slider generator : add a slider to any post or page!' , 'customizr' ) ?></p>
-                     <a class="btn btn-large btn-primary" href="<?php echo $admin_link; ?>"><?php _e( 'Discover the features' , 'customizr' ) ?></a>
-                </div>
+
               </div>
             </div><!-- /.carousel-inner -->
             <a class="left carousel-control" href="#customizr-slider" data-slide="prev">&lsaquo;</a>
