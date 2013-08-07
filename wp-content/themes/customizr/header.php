@@ -44,4 +44,4 @@
 	  		<?php do_action ( '__slider' ) ?>
 
 		<div id="main-wrapper" class="container">
-			<?php echo wpsc_shopping_cart();?>
+			
