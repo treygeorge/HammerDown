@@ -10,6 +10,7 @@
 ?>
 
 <div id="single_product_page_container">
+	single product page in customizr theme
 
 	<?php
 		// Breadcrumbs
