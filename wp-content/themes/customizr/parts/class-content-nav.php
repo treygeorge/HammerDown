@@ -34,6 +34,7 @@ class TC_nav {
 
       if ( is_single()) : ?>
         <hr class="featurette-divider">
+        I hate this
 
         <nav id="<?php echo $html_id; ?>" class="navigation" role="navigation">
 

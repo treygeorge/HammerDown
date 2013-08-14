@@ -8,7 +8,7 @@
 	$image_width  = get_option( 'single_view_image_width' );
 	$image_height = get_option( 'single_view_image_height' );
 ?>
-single product page in the plugin area
+single product page in the Theme area
 <div id="single_product_page_container">
 
 

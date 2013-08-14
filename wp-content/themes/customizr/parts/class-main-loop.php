@@ -68,7 +68,7 @@ class TC_loop {
             /* include navigation for posts only */
             if(!is_page(tc__f ( '__ID' ))) {
                
-               do_action( '__post_nav' );
+               //do_action( '__post_nav' );
 
              }
             ?>
