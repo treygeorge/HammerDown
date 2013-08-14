@@ -8,6 +8,7 @@ get_header();
     do_action( '__breadcrumb' );
       ?>
         <div class="container" role="main">
+            Main-Product Page
             <div class="row">
                 <?php
                     do_action( '__sidebar' , 'left' );

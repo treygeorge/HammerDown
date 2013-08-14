@@ -6,16 +6,18 @@ $image_width = get_option('product_image_width');
  */
 ?>
 <div id="default_products_page_container" class="wrap wpsc_container">
-
+This is the wpsc-products_page.php page in our e-commerge plugin.
 <?php wpsc_output_breadcrumbs(); ?>
 
 	<?php do_action('wpsc_top_of_products_page'); // Plugin hook for adding things to the top of the products page, like the live search ?>
 	<?php if(wpsc_display_categories()): ?>
 	  <?php if(wpsc_category_grid_view()) :?>
+	  		<!-- this is our current  div display coming up -->
 			<div class="wpsc_categories wpsc_category_grid group">
 				<?php wpsc_start_category_query(array('category_group'=> get_option('wpsc_default_category'), 'show_thumbnails'=> 1)); ?>
+					<? wpsc_print_category_name(); ?>
 					<a href="<?php wpsc_print_category_url();?>" class="wpsc_category_grid_item  <?php wpsc_print_category_classes_section(); ?>" title="<?php wpsc_print_category_name(); ?>">
-						<?php wpsc_print_category_image(); ?>
+						<?php wpsc_print_category_image();?>
 					</a>
 					<?php wpsc_print_subcategory("", ""); ?>
 				<?php wpsc_end_category_query(); ?>

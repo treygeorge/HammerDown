@@ -1,4 +1,4 @@
-wp-content/backup/*
+entryewp-content/backup/*
 wp-content/cache/*
 wp-content/upgrade/*
 wp-content/uploads/*
